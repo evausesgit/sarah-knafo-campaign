@@ -1,0 +1,21 @@
+{
+  "name": "sarah-knafo-campaign",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application de campagne pour Sarah Knafo",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "api:dev": "pnpm --filter api dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
