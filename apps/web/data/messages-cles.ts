@@ -104,10 +104,10 @@ export const evolutionTaxeFonciere = [
   { name: '2020', taux: 13.5 },
   { name: '2021', taux: 13.5 },
   { name: '2022', taux: 13.5 },
-  { name: '2023', taux: 20.5 }, // +52%
+  { name: '2023', taux: 20.5 },
   { name: '2024', taux: 21.5 },
-  { name: '2025 (proj.)', taux: 22.0 },
-  { name: 'Avec SK', taux: 10.75, projected: true }, // division par 2
+  { name: '2025', taux: 22.0 },
+  { name: 'Avec SK', taux: 10.75 },
 ]
 
 export const comparaisonTaxeFonciere = [
